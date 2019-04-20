@@ -6,22 +6,12 @@ import { StackNavigator } from "react-navigation";
 export default (MainScreenNavigator = StackNavigator(
   
   {
-    // loading:{screen:loading, navigationOptions: { header: null }},
     landing: { screen: landing, 
       navigationOptions: () => ({
             headerTitleStyle: { textAlign:"center", flex:1  },
             title: `FOSSIL JS`,
-            // headerBackground:'green'
           })
       },
-    // Pulsa:{screen: pulsa,
-    //   navigationOptions: () => ({
-    //     headerTitleStyle: { textAlign:"center", flex:1  },
-    //     title: `Pulsa`,
-    //     headerRight: (<View />)
-    //     // headerBackground:'green'
-    //   })
-    // },
   },
   {
     initialRouteName: 'landing'

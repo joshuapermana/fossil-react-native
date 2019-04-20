@@ -31,7 +31,7 @@ export default class landing extends Component {
       
     };
   }
- 
+  
   render() {
     const { navigate } = this.props.navigation;
     return (
@@ -52,7 +52,7 @@ export default class landing extends Component {
             <Text style={style.textButton}> Networking</Text>
         </TouchableOpacity>
         <TouchableOpacity style={style.button}
-          onPress={() => { }}
+          onPress={() => {this.alert()}}
         >
             <Text style={style.textButton}> Alert</Text>
         </TouchableOpacity>

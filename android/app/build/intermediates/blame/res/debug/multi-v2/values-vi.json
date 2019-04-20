@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/paper/Project/rnfossil/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "outputFile": "/Users/paper/Project/rnfossil/fossil-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "/Users/paper/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/969b856b6aace129a002c53f4873413a/res/values-vi/values-vi.xml",
